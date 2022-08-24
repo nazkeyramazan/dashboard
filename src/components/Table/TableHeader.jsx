@@ -9,10 +9,10 @@ export default function TableHeader(){
         <TableHead>
             <TableRow>
                 <StyledTableCell>Филиал</StyledTableCell>
-                <StyledTableCell>ЦБО</StyledTableCell>
+                <StyledTableCell><pre>  ЦБО  </pre></StyledTableCell>
                 <StyledTableCell>Обслужены</StyledTableCell>
-                <StyledTableCell>Средн. время <br/> обслуживания</StyledTableCell>
-                <StyledTableCell>Средн. время <br/> ожидания</StyledTableCell>
+                <StyledTableCell>Средн. время обслуживания</StyledTableCell>
+                <StyledTableCell>Средн. время ожидания</StyledTableCell>
                 <StyledTableCell>В очереди <br/> сейчас</StyledTableCell>
             </TableRow>
 

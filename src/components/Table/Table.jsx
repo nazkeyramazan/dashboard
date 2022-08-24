@@ -15,9 +15,9 @@ export const StyledTableCell = styled(TableCell)`
   padding: 1px;
   font-size: 2vh;
   width: 1vw;
+  background-color: darkgray;
 `
 
-const colors = ['#c4c4c4', '#c42324', 'red', 'yellow', 'green']
 
 export default function TableD({rows}){
     return(

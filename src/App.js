@@ -1,7 +1,7 @@
 import './App.css';
 import Table from "./components/Table/Table";
 const rows = [
-    {parentID:1, filiale: 'Алматинский',cbo: 'Центр', served:6, serviceAvgTime:24, waitAvgTime:4, queueCnt: 0},
+    {parentID:1, filiale: 'Алматинский',cbo: 'Центральный', served:6, serviceAvgTime:24, waitAvgTime:4, queueCnt: 0},
     {parentID:1, filiale: 'Алматинский',cbo: '№ 256', served:6, serviceAvgTime:24, waitAvgTime:4, queueCnt: 0},
     {parentID:1, filiale: 'Алматинский',cbo: '№ 256', served:6, serviceAvgTime:24, waitAvgTime:4, queueCnt: 0},
     {parentID:1, filiale: 'Алматинский',cbo: '№ 256', served:6, serviceAvgTime:24, waitAvgTime:4, queueCnt: 0},
