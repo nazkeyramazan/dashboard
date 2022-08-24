@@ -9,7 +9,7 @@ export default function TableHeader(){
         <TableHead>
             <TableRow>
                 <StyledTableCell>Филиал</StyledTableCell>
-                <StyledTableCell><pre>  ЦБО  </pre></StyledTableCell>
+                <StyledTableCell>ЦБО</StyledTableCell>
                 <StyledTableCell>Обслужены</StyledTableCell>
                 <StyledTableCell>Средн. время обслуживания</StyledTableCell>
                 <StyledTableCell>Средн. время ожидания</StyledTableCell>

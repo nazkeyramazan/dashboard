@@ -15,8 +15,8 @@ export default function MainTableBody({rowData}){
 
                     <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}} component="th" scope="row">{row.filiale}</StyledTableCell>
 
-                    {row.cbo==='Центральный'?
-                        <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}}>Центр.</StyledTableCell>:
+                    {row.cbo.length>5 ?
+                        <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo.substring(0,5)}.</StyledTableCell>:
                         <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo}</StyledTableCell>
                     }
 
