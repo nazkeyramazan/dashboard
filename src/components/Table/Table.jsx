@@ -12,9 +12,11 @@ export const StyledTableBody = styled(TableBody)`
 export const StyledTableCell = styled(TableCell)`
   line-height: 1.2;
   text-align: center;
-  padding: 1px;
+  padding: 0;
   width: 1vw;
+  font-weight: 350;
   background-color: darkgray;
+  border-bottom: 1px solid rgba(224, 224, 224, 0);
   font-size: ${props => props.small ? "1.5vh" : "2vh"};
 `
 
