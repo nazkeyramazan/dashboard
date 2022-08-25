@@ -11,9 +11,9 @@ export default function TableHeader(){
                 <StyledTableCell>Филиал</StyledTableCell>
                 <StyledTableCell>ЦБО</StyledTableCell>
                 <StyledTableCell>Обслужены</StyledTableCell>
-                <StyledTableCell>Средн. время обслуживания</StyledTableCell>
-                <StyledTableCell>Средн. время ожидания</StyledTableCell>
-                <StyledTableCell>В очереди <br/> сейчас</StyledTableCell>
+                <StyledTableCell small="true">Средн. время обслуживания</StyledTableCell>
+                <StyledTableCell small="true">Средн. время ожидания</StyledTableCell>
+                <StyledTableCell small="true">В очереди сейчас</StyledTableCell>
             </TableRow>
 
         </TableHead>

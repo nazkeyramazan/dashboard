@@ -30,8 +30,8 @@ export default function MainTableBody({rowData}){
                     }
 
                     {row.cbo.length>5 ?
-                        <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo.substring(0,5)}.</StyledTableCell>:
-                        <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo}</StyledTableCell>
+                        <StyledTableCell onClick={()=>console.log(row.parentID)} style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo.substring(0,5)}.</StyledTableCell>:
+                        <StyledTableCell onClick={()=>console.log(row.parentID)} style={{backgroundColor: `${colors[row.parentID]}`}}>{row.cbo}</StyledTableCell>
                     }
 
                     <StyledTableCell style={{backgroundColor: `${colors[row.parentID]}`}} >{row.served}</StyledTableCell>

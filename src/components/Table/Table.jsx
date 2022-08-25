@@ -13,9 +13,9 @@ export const StyledTableCell = styled(TableCell)`
   line-height: 1.2;
   text-align: center;
   padding: 1px;
-  font-size: 2vh;
   width: 1vw;
   background-color: darkgray;
+  font-size: ${props => props.small ? "1.5vh" : "2vh"};
 `
 
 
