@@ -14,10 +14,10 @@ export const StyledTableCell = styled(TableCell)`
   text-align: center;
   padding: 0;
   width: 1vw;
-  font-weight: 350;
+  font-weight: 300;
   background-color: darkgray;
   border-bottom: 1px solid rgba(224, 224, 224, 0);
-  font-size: ${props => props.small ? "1.5vh" : "2vh"};
+  font-size: ${props => props.small ? "1.5vh" : "1.9vh"};
 `
 
 
